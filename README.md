@@ -105,10 +105,8 @@ which specific movies are driving September's number before treating this as a r
 ## What's in This Project
 
 ```
-movie-roi-project/
-├── data/
-│   ├── tmdb_5000_movies.csv
-│   └── tmdb_5000_credits.csv
+movie-roi-sql-analysis/
+├── tmdb_5000_movies.csv
 ├── sql/
 │   └── queries.sql
 ├── charts/
@@ -117,6 +115,8 @@ movie-roi-project/
 │   └── release_month_roi.png
 └── README.md
 ```
+
+Note: the credits dataset (tmdb_5000_credits.csv) isn't included here — it's ~39MB, over GitHub's file size limit for browser uploads, and it wasn't used in this analysis anyway. The full dataset is available at the Kaggle link above if needed.
 
 ## Resume Version
 
