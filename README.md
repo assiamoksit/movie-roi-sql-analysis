@@ -20,7 +20,7 @@ from Kaggle, which has budget, revenue, genre, and release date info for about 4
 released between 1916 and 2017.
 
 **Cleaning up the data:** About a third of the movies (1,574 out of 4,803) were missing a
-budget or revenue number entirely (listed as $0), so I left those out — they're missing data,
+budget or revenue number entirely (listed as $0), so I left those out since they're missing data, and
 not real flops. I also found a few movies with budgets like $1 or $10, which are obviously
 typos, not real numbers. I set a minimum budget of $10,000 to filter those out, while still
 keeping real ultra-low-budget movies like *Paranormal Activity* (made for just $15,000), since
@@ -48,9 +48,9 @@ to make the charts.
 
 ![Average ROI Multiplier by Genre](charts/genre_roi.png)
 
-On average, horror movies make back over 100 times what they cost — far ahead of every other
+On average, horror movies make back over 100 times what they cost, which is far ahead of every other
 genre. But that doesn't mean horror is a safe bet. A couple of massive hits are pulling this
-number up, especially *Paranormal Activity* (cost $15,000, made $193 million — a 12,890x return)
+number up, especially *Paranormal Activity* (cost $15,000, made $193 million, a 12,890x return)
 and *The Blair Witch Project*. Most horror movies don't come close to that. The number reflects
 a few breakout successes more than a reliable pattern across the genre.
 
@@ -64,7 +64,7 @@ a few breakout successes more than a reliable pattern across the genre.
 
 ![Average ROI by Budget Tier](charts/budget_tier_roi.png)
 
-This one surprised me. The usual assumption is that spending more makes a movie a safer bet —
+This one surprised me. The usual assumption is that spending more makes a movie a safer bet,
 but cheaper movies actually made back far more relative to what they cost. A few breakout
 low-budget hits are part of the story, but the pattern held up consistently: a bigger budget
 buys a bigger production, not necessarily a better return.
@@ -82,9 +82,9 @@ buys a bigger production, not necessarily a better return.
 
 ![Average ROI by Release Month](charts/release_month_roi.png)
 
-I expected summer to dominate, and July does perform well — but September actually came out on
+I expected summer to dominate, and July does perform well, but September actually came out on
 top. My guess is there's less competition for audience attention right after summer ends, giving
-films more room to stand out. That's a theory, not a conclusion — it would be worth looking at
+films more room to stand out. That's a theory, not a conclusion, it would be worth looking at
 which specific movies are driving September's number before treating this as a reliable pattern.
 
 ## What I'd Suggest, If This Were a Real Studio Decision
@@ -93,7 +93,7 @@ which specific movies are driving September's number before treating this as a r
    couple of outlier hits carrying the whole category. A studio betting on horror because of
    this number alone would be misreading it.
 2. **Question the idea that a bigger budget is the "safer" choice.** Based on this data, it's
-   actually the opposite — smaller, tighter budgets have historically paid off better,
+   actually the opposite; smaller, tighter budgets have historically paid off better,
    relatively speaking. It might make sense to fund more smaller projects instead of pouring
    everything into one big one.
 3. **Take a closer look at September as a release window.** It's outperforming the usual
@@ -116,7 +116,7 @@ movie-roi-sql-analysis/
 └── README.md
 ```
 
-Note: the credits dataset (tmdb_5000_credits.csv) isn't included here — it's ~39MB, over GitHub's file size limit for browser uploads, and it wasn't used in this analysis anyway. The full dataset is available at the Kaggle link above if needed.
+Note: the credits dataset (tmdb_5000_credits.csv) isn't included here, because it's about 39MB, over GitHub's file size limit for browser uploads, and it wasn't used in this analysis anyway. The full dataset is available at the Kaggle link above if needed.
 
 ## Resume Version
 
