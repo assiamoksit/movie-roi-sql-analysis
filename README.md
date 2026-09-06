@@ -28,7 +28,7 @@ those are legitimate and actually interesting to look at, not mistakes.
 
 ## Tools I Used
 
-SQL (using a free tool called DB Browser for SQLite) to pull and analyze the data, and Excel
+SQL to pull and analyze the data, and Excel
 to make the charts.
 
 ## What I Found
