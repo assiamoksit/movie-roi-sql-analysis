@@ -46,7 +46,7 @@ to make the charts.
 | Comedy | 633 | 5.3x |
 | Action | 588 | 2.9x |
 
-*(chart: `charts/genre_roi.png`)*
+![Average ROI Multiplier by Genre](charts/genre_roi.png)
 
 On average, horror movies make back over 100 times what they cost — far ahead of every other
 genre. But that doesn't mean horror is a safe bet. A couple of massive hits are pulling this
@@ -62,7 +62,7 @@ a few breakout successes more than a reliable pattern across the genre.
 | Medium ($5M–$50M) | 1,842 | 3.8x |
 | Big (over $50M) | 956 | 2.7x |
 
-*(chart: `charts/budget_tier_roi.png`)*
+![Average ROI by Budget Tier](charts/budget_tier_roi.png)
 
 This one surprised me. The usual assumption is that spending more makes a movie a safer bet —
 but cheaper movies actually made back far more relative to what they cost. A few breakout
@@ -80,7 +80,7 @@ buys a bigger production, not necessarily a better return.
 | August | 280 | 6.8x |
 | January | 192 | 6.4x |
 
-*(chart: `charts/release_month_roi.png`)*
+![Average ROI by Release Month](charts/release_month_roi.png)
 
 I expected summer to dominate, and July does perform well — but September actually came out on
 top. My guess is there's less competition for audience attention right after summer ends, giving
